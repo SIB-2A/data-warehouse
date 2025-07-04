@@ -430,13 +430,13 @@
     <created_date>2025/06/17 14:48:41.306</created_date>
     <modified_user>-</modified_user>
     <modified_date>2025/06/17 14:48:41.306</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <connection>
-    <name>conn_olap_resource</name>
+    <name>conn_olap_inventory</name>
     <server>localhost</server>
     <type>MYSQL</type>
     <access>Native</access>
@@ -521,7 +521,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:\UNI\SEMESTER 4\DATA WAREHOUSE\inventory-dataset.csv</filename>
+    <filename>D:/KULIAH/college/smt 4/2025/data warehouse/Github New/data-warehouse/30_yonanda_mayla/UAS/inventory-dataset.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -540,7 +540,7 @@
         <name>RegionName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>14</length>
@@ -551,7 +551,7 @@
         <name>CountryName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>24</length>
@@ -562,7 +562,7 @@
         <name>State</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>10</length>
@@ -573,7 +573,7 @@
         <name>City</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>19</length>
@@ -584,7 +584,7 @@
         <name>PostalCode</name>
         <type>Integer</type>
         <format>#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -595,7 +595,7 @@
         <name>WarehouseAddress</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>19</length>
@@ -606,7 +606,7 @@
         <name>WarehouseName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -617,7 +617,7 @@
         <name>EmployeeName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>17</length>
@@ -628,7 +628,7 @@
         <name>EmployeeEmail</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>29</length>
@@ -639,7 +639,7 @@
         <name>EmployeePhone</name>
         <type>Integer</type>
         <format>#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -650,7 +650,7 @@
         <name>EmployeeHireDate</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -661,7 +661,7 @@
         <name>EmployeeJobTitle</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>31</length>
@@ -672,7 +672,7 @@
         <name>CategoryName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>10</length>
@@ -683,7 +683,7 @@
         <name>ProductName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>39</length>
@@ -694,7 +694,7 @@
         <name>ProductDescription</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>36</length>
@@ -705,7 +705,7 @@
         <name>ProductStandardCost</name>
         <type>Number</type>
         <format>#.#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>7</length>
@@ -716,7 +716,7 @@
         <name>Profit</name>
         <type>Number</type>
         <format>#.#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>6</length>
@@ -727,7 +727,7 @@
         <name>ProductListPrice</name>
         <type>Number</type>
         <format>#.#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>7</length>
@@ -738,7 +738,7 @@
         <name>CustomerName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>19</length>
@@ -749,7 +749,7 @@
         <name>CustomerAddress</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>42</length>
@@ -760,7 +760,7 @@
         <name>CustomerCreditLimit</name>
         <type>Integer</type>
         <format>#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -771,7 +771,7 @@
         <name>CustomerEmail</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>38</length>
@@ -782,7 +782,7 @@
         <name>CustomerPhone</name>
         <type>Integer</type>
         <format>#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -793,7 +793,7 @@
         <name>Status</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>8</length>
@@ -804,7 +804,7 @@
         <name>OrderDate</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>9</length>
@@ -815,7 +815,7 @@
         <name>OrderItemQuantity</name>
         <type>Integer</type>
         <format>#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -826,7 +826,7 @@
         <name>PerUnitPrice</name>
         <type>Number</type>
         <format>#.#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>7</length>
@@ -837,7 +837,7 @@
         <name>TotalItemQuantity</name>
         <type>Integer</type>
         <format>#</format>
-        <currency>$</currency>
+        <currency>IDR</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -873,19 +873,15 @@
     <fields>
       <field>
         <name>WarehouseName</name>
-        <rename/>
       </field>
       <field>
         <name>WarehouseAddress</name>
-        <rename/>
       </field>
       <field>
         <name>City</name>
-        <rename/>
       </field>
       <field>
         <name>State</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -914,7 +910,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>conn_olap_resource</connection>
+    <connection>conn_olap_inventory</connection>
     <schema>dw_inventory</schema>
     <table>dim_gudang</table>
     <commit>1000</commit>
